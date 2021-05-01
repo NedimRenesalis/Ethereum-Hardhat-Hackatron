@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/NedimRenesalis/Ethereum-Hardhat-Hackatron/issues"
   },
-  "homepage": "https://github.com/NedimRenesalis/Ethereum-Hardhat-Hackatron#readme"
+  "homepage": "https://github.com/NedimRenesalis/Ethereum-Hardhat-Hackatron#readme",
+  "devDependencies": {
+    "hardhat": "^2.2.1"
+  }
 }

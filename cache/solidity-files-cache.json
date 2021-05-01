@@ -2,9 +2,45 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/cayman/hh/contracts/Token.sol": {
-      "lastModificationDate": 1619862645740,
-      "contentHash": "fbcf542e608d0b2219348729cfc64160",
+      "lastModificationDate": 1619866411160,
+      "contentHash": "cdcc181a157e332b8d541f388ab934a2",
       "sourceName": "contracts/Token.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "Token"
+      ]
+    },
+    "/home/cayman/hh/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1619861183770,
+      "contentHash": "cc4777addd464ea56fa35b1c45df0591",
+      "sourceName": "hardhat/console.sol",
       "solcConfig": {
         "version": "0.7.3",
         "settings": {
@@ -29,10 +65,10 @@
       },
       "imports": [],
       "versionPragmas": [
-        "^0.7.0"
+        ">=0.4.22 <0.9.0"
       ],
       "artifacts": [
-        "Token"
+        "console"
       ]
     }
   }
